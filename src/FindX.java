@@ -1,7 +1,4 @@
-/**
- *
- */
-public class SpeedLight {
+public class FindX {
     public static void main(String[] args) {
 
     }

@@ -1,7 +1,4 @@
-/**
- *
- */
-public class SpeedLight {
+public class MaleStudent {
     public static void main(String[] args) {
 
     }
