@@ -8,6 +8,9 @@
  */
 public class FindX {
     public static void main(String[] args) {
-
+        int formula1 = 5 + 19 + 47; //Calculates the left side of the formula
+        int formula2 = 194;
+        int x = formula2 - formula1; //Calculates the formula to find x
+        System.out.println("The number X based on the formula is " + x + ".");
     }
 }

@@ -10,6 +10,9 @@
  */
 public class Chocolate {
     public static void main(String[] args) {
-
+        int bagsOfChocolate = 9;
+        int totalChocolate = bagsOfChocolate * 2; //Calculate the total number of chocolate bars
+        int threeChocolate = totalChocolate / 3; //Calculate the total number of bags to fit three chocolate bars
+        System.out.println("You will need " + threeChocolate + " bags to fit three chocolate bars for each bag.");
     }
 }

@@ -9,6 +9,9 @@
  */
 public class Stamps {
     public static void main(String[] args) {
-
+        int susan = 8;
+        int jean = 40;
+        int stampDifference = jean - susan; //Compute the difference between Jean and Susan
+        System.out.println("Jean has " + stampDifference + " more stamps than Susan.");
     }
 }

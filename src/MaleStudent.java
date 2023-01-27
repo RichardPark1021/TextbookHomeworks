@@ -8,6 +8,9 @@
  */
 public class MaleStudent {
     public static void main(String[] args) {
-
+        int totalStudents = 389;
+        int totalFemaleStudents = 175;
+        int totalMaleStudents = totalStudents - totalFemaleStudents; //formula for the total number of male students
+        System.out.println("There is a total of " + totalMaleStudents + " male students.");
     }
 }

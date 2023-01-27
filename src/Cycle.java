@@ -10,6 +10,11 @@
  */
 public class Cycle {
     public static void main(String[] args) {
-
+        int bicycle = 10;
+        int totalWheels = 47;
+        int bicycleWheels = bicycle * 2; //Calculates the total number of bicycle wheels
+        int tricycleWheels = totalWheels - bicycleWheels; //Calculates the total number of tricycle wheels
+        int tricycle = tricycleWheels / 3; //Calculates the total number of tricycle
+        System.out.println("There is a total of " + tricycle + " tricycles.");
     }
 }
