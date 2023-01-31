@@ -11,8 +11,8 @@ public class SpeedLight {
     public static void main(String[] args) {
         int speedOfSound = 340;
         int soundOfThunder = 5;
-        int Distance = speedOfSound * soundOfThunder;
+        int Distance = speedOfSound * soundOfThunder; //Calculates the distance of the lightning strike
         System.out.println("Based on the time elapsed between the flash and the sound of thunder, the distance is "
-                + Distance + " meters."); //Calculates the distance of the lightning strike
+                + Distance + " meters.");
     }
 }
