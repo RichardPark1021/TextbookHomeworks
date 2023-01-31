@@ -13,6 +13,7 @@ public class Circle {
         double radius = 9.5;
         double area = radius * radius * Math.PI; //formula for the area of the circle
         double perimeter = 2 * radius * Math.PI; //formula for the perimeter of the circle
-        System.out.println("The area of the circle is " + area + " and the perimeter of the circle is " + perimeter + ".");
+        System.out.println("The area of the circle is " + area + ".");
+        System.out.println("The perimeter of the circle is " + perimeter + ".");
     }
 }
